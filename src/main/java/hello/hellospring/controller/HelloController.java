@@ -1,12 +1,10 @@
 package hello.hellospring.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Repository;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ResponseStatus;
 
 @Controller
 public class HelloController {
@@ -41,9 +39,9 @@ public class HelloController {
         private String name;
 
         // Getter Setter 사용
-        public String getName() {
+/*        public String getName() {
             return name;
-        }
+        }*/
 
         public void setName(String name) {
             this.name = name;
